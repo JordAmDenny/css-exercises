@@ -1,6 +1,6 @@
 body {
-  font-family: 'Courier New', Courier, monospace;
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 img {
@@ -10,8 +10,6 @@ img {
 
 .title {
   margin-bottom: 32px;
-  display: flex;
-  justify-content: center;
   font-size: 36px;
   font-weight: 900;
 }
@@ -29,12 +27,12 @@ img {
   background: #eee;
 }
 
-.all {
-  display: flex;
+.container {
   justify-content: center;
   gap: 52px;
+  display: flex;
 }
 
-.info {
-  max-width: 200px;
+.one {
+  width: 200px;
 }
